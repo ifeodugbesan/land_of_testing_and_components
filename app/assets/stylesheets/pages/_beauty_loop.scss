@@ -1,0 +1,25 @@
+.insider-info-cards {
+  width: 500px;
+  height: 270px;
+  background: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin: 20px;
+}
+
+.insider-info-image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+}
+
+.insider-info-text {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}

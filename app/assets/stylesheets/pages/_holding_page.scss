@@ -1,0 +1,120 @@
+.offers-banner {
+  height: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offers-banner-text {
+  margin: 0;
+  font-weight: 900;
+  color: white;
+}
+
+.logo-bar {
+  display: flex;
+  background: white;
+  height: 60px;
+}
+
+.logo-bar-section {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 45px;
+  }
+}
+
+.middle-section {
+  justify-content: center;
+  img {
+    width: 65%;
+  }
+}
+
+.last-section {
+  justify-content: flex-end;
+}
+
+.follow-us-instagram {
+  margin: 0;
+  text-align: right;
+  font-size: 18px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.holding-page-image-banner {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.holding-page-text-banner {
+  min-height: 350px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holding-page-text {
+  text-align: center;
+  font-weight: 900;
+  width: 50%;
+  padding: 20px 0;
+  @include for-small-devices-down {
+    width: 70%;
+  }
+}
+
+.holding-page-newsletter-banner {
+  background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  h1 {
+    font-weight: 900;
+  }
+  p {
+    font-weight: 900;
+    width: 30%;
+    margin: 20px 0;
+    @include for-small-devices-down {
+      width: 55%;
+    }
+  }
+}
+
+.send_email_email {
+  margin: 0;
+}
+
+#send_email_email {
+  background: transparent;
+  border: 3px solid black;
+  height: 50px;
+  border-radius: 0;
+  width: 275px;
+}
+
+.contact-form-button {
+  height: 50px;
+  background-color: black;
+  color: #F5F5F5;
+  border-radius: 0;
+  padding: 6px 50px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+  &:hover {
+    color: #F5F5F5;
+  }
+}

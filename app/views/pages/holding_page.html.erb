@@ -1,0 +1,37 @@
+<div class="offers-banner">
+  <p class="offers-banner-text">20% OFF YOUR FIRST ORDER</p>
+</div>
+<div class="logo-bar">
+  <div class="logo-bar-section"></div>
+  <div class="logo-bar-section middle-section">
+    <%= image_tag 'beauty-loop.png' %>
+  </div>
+  <div class="logo-bar-section last-section">
+    <p class="follow-us-instagram">Follow us: </p><i class="fab fa-instagram"></i>
+  </div>
+</div>
+<div class="holding-page-image-banner" style="background-image: url('https://images.pexels.com/photos/457701/pexels-photo-457701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')"></div>
+<div class="holding-page-text-banner">
+  <div class="holding-page-text">
+    <p>As women of colour we know filtering through the 100s of beauty brands to find the perfect product can be daunting</p>
+    <p>Loop Beauty makes it easier and more effective. Partnering with your favourite beauty influencers we curate the very best beauty products for women of colour.</p>
+    <p>Expert advice. Fun secrets. Master classes. Exciting stories. Perfect your look in one place.</p>
+  </div>
+</div>
+<div class="holding-page-newsletter-banner">
+  <h1 class="text-center" style="margin: 30px 0;">Sign Up Now</h1>
+  <%= simple_form_for :send_email, url: send_email_path, method: :get do |f| %>
+  <div class="form-inline">
+    <div class="">
+      <%= f.input :email, label: false, placeholder:'Email address' %>
+    </div>
+    <div class="">
+      <%= f.button :button, type: :submit,  class: "contact-form-button" do %>
+        <p>SEND</p>
+      <% end %>
+    </div>
+  </div>
+  <% end %>
+  <p class="text-center">20% off your first order</p>
+  <p class="text-center" style="color: #9E9E9E;">For press and business enquiries: hello@loopbeauty.co.uk</p>
+</div>
